@@ -1,7 +1,7 @@
-var addon = require('./build/Release/addon');
+var windowInfo = require('./build/Release/window-info');
 
 setInterval(function () {
-    addon(function (msg) {
-        console.log(msg);
+    windowInfo(function (windowTitle) {
+        console.log(windowTitle);
     })
 }, 1000);

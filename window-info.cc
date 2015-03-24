@@ -26,7 +26,6 @@ void RunCallback(const FunctionCallbackInfo<Value>& args) {
 
 	wchar_t* windowText = ModuleGetWindowText(topWindow);
 	size_t len = wcslen(windowText);
-	cout << "len: " << len << endl;
 	char *buffer = new char[len];
 	wcstombs(buffer, windowText, len);
 
