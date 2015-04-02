@@ -1,0 +1,21 @@
+{
+  "name": "node-window-info",
+  "version": "0.0.1",
+  "description": "Information about the current top window",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrotaru/node-widow-info.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/mrotaru/node-widow-info/issues"
+  },
+  "homepage": "https://github.com/mrotaru/node-widow-info"
+}
